@@ -1,7 +1,11 @@
 * {
 	margin: 0;
 	padding: 0;
-	color: #000;
+	
+}
+
+body {
+  font-family: 'Jost';
 }
 
 /*шапка лендинга*/
