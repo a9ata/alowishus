@@ -159,13 +159,13 @@ main {
 
 
 
-.main-h1 {
+.container-main-third .main-h1 {
   font-size: 64px;
   text-align: center;
   margin-top: 150px;
 }
 
-.main-p {
+.container-main-third .main-p {
   font-size: 24px;
   color: #64646A;
   width: 604px;
@@ -174,7 +174,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  margin-bottom: 90px;
+  margin-bottom: 178px;
 }
 
 .section-cards {
@@ -259,16 +259,66 @@ main {
 }
 
 
-
-
 .container-main-third .card {
   width: 393px;
   height: 471px;
-
 }
 
+.container-main-third .card .btn-bgv{
+  width: 171px;
+  height: 60px;
+  position: relative;
+  top:  -130px;
+  left: 200px;
+  margin: 0;
+}
 
+.card .card-picture {
+  position: relative;
+  top: -80px;
+  left: -80px;
+}
 
+.card .rating {
+  position: relative;
+  top: -260px;
+  left: 220px;
+
+  font-size: 20px;
+  color: #64646A;
+  margin: 0;
+}
+
+.card .card-title{
+  position: relative;
+  top: -250px;
+  left: 220px;
+
+  width: 161px;
+  height: 88px;
+  font-size: 40px;
+  color: #1B1B1D;
+  margin: 0;  
+}
+
+.card .coffe-description{
+  position: relative;
+  top: -170px;
+  left: 0px;
+
+  width: 327px;
+  height: 84px;
+  font-size: 20px;
+  color: #64646A;
+}
+
+.card .price{
+  position: relative;
+  top:  -100px;
+  left: 0px;
+  font-size: 30px;
+  color: #1B1B1D;
+}
 
 .container-main-fourth {
   display: flex;
@@ -540,13 +590,25 @@ main {
 input{
 	width: 413px;
 	height: 70px;
+  border: none;
 	border-radius: 65px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 30px;
+  padding-left: 30px;
 }
+
+input::placeholder {
+  color: #64646A;
+  font-size: 22px;
+}
+
 
 .follow .btn-bgv{
   margin-bottom: 70px;
+  width: 173px;
+  height: 70px;
 }
 
 .contact-mail, 
