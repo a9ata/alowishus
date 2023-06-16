@@ -547,23 +547,26 @@ input{
   margin-bottom: 30px;
 }
 
-.contact-mail, .contact-number {
+.follow .btn-bgv{
+  margin-bottom: 70px;
+}
+
+.contact-mail, 
+.contact-number {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
 }
 
-.contact-mail p, .contact-number p {
+.contact-mail p, 
+.contact-number p {
   font-size: 30px;
   color: #64646A;
 }
 
 
-
-
-
-
-.container-footer-third, .container-footer-fourth {
+.container-footer-third, 
+.container-footer-fourth {
   float: left;
 }
 
@@ -577,4 +580,41 @@ input{
 .container-footer-fourth {
   
   margin-left: 227px;
+}
+
+
+
+.footer-line {
+  width: 1240px;
+  margin: 0 100px;
+  color: #1B1B1D;
+}
+
+.footer-end {
+  display: flex;
+  margin: 40px 0;
+}
+
+.footer-copytright {
+  margin-left: 103px;
+  margin-right: 620px;
+}
+
+.footer-copytright p,
+.footer-privacy-policy p{
+  font-size: 22px;
+  display: inline;
+}
+
+.footer-copytright p:first-child,
+.footer-privacy-policy p{
+  color: #64646A;
+}
+
+.footer-copytright p:last-child{
+  color: #1B1B1D;
+}
+
+.footer-privacy-policy p:second-child{
+  margin: 0 12px;
 }
