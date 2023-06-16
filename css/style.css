@@ -485,7 +485,7 @@ main {
   float: left;
   margin-top: 230px;
   margin-left: 227px;
-  margin-bottom: 90px;
+  margin-bottom: 100px;
 }
 
 .container-footer-first .footer-logo {
@@ -511,17 +511,40 @@ main {
   margin-bottom: 30px;
 }
 
-/*.location p {
+.location p {
   width: 558px;
   height: 80px;
   margin-top: 30px;
-}*/
+  font-size: 30px;
+  color: #64646A;
+  margin-bottom: 30px;
+}
+
+.location a img {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.location h1, .follow h1{
+ font-size: 40px;
+}
+
+.location a {
+  text-decoration: none;
+  font-weight: 600px;
+  font-size: 18px;
+  color: #1B1B1D;
+  text-align: center;
+}
 
 
 input{
 	width: 413px;
 	height: 70px;
 	border-radius: 65px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .contact-mail, .contact-number {
@@ -533,4 +556,25 @@ input{
 .contact-mail p, .contact-number p {
   font-size: 30px;
   color: #64646A;
+}
+
+
+
+
+
+
+.container-footer-third, .container-footer-fourth {
+  float: left;
+}
+
+
+.container-footer-third {
+ 
+  margin-left: 98px;
+}
+
+
+.container-footer-fourth {
+  
+  margin-left: 227px;
 }
