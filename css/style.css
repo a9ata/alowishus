@@ -147,7 +147,29 @@ header {
 	height: 113px;
 }
 
+.grade {
+  width: 280px;
+  height: 140px;
+  border-radius: 24px;
+  background-color: #FFFFFF;
 
+  position: absolute;
+  left: 720px;
+  top: 594px;
+}
+
+.black-star{
+  margin: 20px 24px;
+  padding: 0 9px 0 0;
+}
+
+.description-stars{
+  width: 232px;
+  height: 52px;
+  font-size: 19px;
+  color: #64646A;
+  margin: 24px 24px;
+}
 
 
 
@@ -485,11 +507,19 @@ main {
 .review p:last-child {
   color: #64646A;
   font-size: 20px;
+  position: relative;
+  right: 210px;
+  top: 10px;
 }
 
 .review img {
-  	width: 16px;
+  width: 16px;
 	margin-right: 4px;
+}
+
+.stars{
+  width: 211px;
+  height: 39px;
 }
 
 .leaf-through {
