@@ -163,13 +163,15 @@ main {
 
 
 
-.container-main-third .main-h1 {
+.container-main-third .main-h1,
+.main-h1 {
   font-size: 64px;
   text-align: center;
   margin-top: 150px;
 }
 
-.container-main-third .main-p {
+.container-main-third .main-p, 
+.main-p {
   font-size: 24px;
   color: #64646A;
   width: 604px;
