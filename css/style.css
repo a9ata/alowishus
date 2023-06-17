@@ -4,9 +4,15 @@
 	
 }
 
+@font-face {
+  font-family: 'Jost';
+  src: url('.../Alowishus/font/Jost/Jost-VariableFont_wght.ttf') format('ttf');
+}
+
 body {
   font-family: 'Jost';
 }
+
 
 /*шапка лендинга*/
 
@@ -29,8 +35,8 @@ header {
 
 .container-block {
 	display: flex;
-  	justify-content: space-between;
-  	align-items: center;
+  justify-content: space-between;
+  align-items: center;
 	width: 100%;
 	margin-right: 0;
 	margin-top: 130px;
@@ -62,7 +68,7 @@ header {
 
 .menu-link {
 	text-decoration: none;
-	font-family: 'Jost';
+  color: #1B1B1D;
 }
 
 .btn-bgv {
