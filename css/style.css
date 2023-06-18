@@ -4,14 +4,13 @@
 	
 }
 
-
 body {
   font-family: 'Jost';
   overflow-x: hidden;
 }
 
 
-/*шапка лендинга*/
+/*Header*/
 
 header {
 	width: 100%;
@@ -44,7 +43,6 @@ header {
 	align-items: center;
 	height: 80px;
 }
-
 
 .menu-item {
 	list-style: none;
@@ -169,7 +167,7 @@ header {
 
 
 
-/*боди лендинга*/
+/*Body*/
 
 
 main {
@@ -182,10 +180,6 @@ main {
 		rgba(243, 244, 245, 0.68) 60.42%,
 		#F3F4F5 79.17%, #FFFFFF 100%);
 }
-
-
-
-
 
 .container-main-third .main-h1,
 .main-h1 {
@@ -335,7 +329,6 @@ main {
   position: relative;
   top: -170px;
   left: 0px;
-
   width: 327px;
   height: 84px;
   font-size: 20px;
@@ -354,13 +347,11 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-
 }
 
 .content-fourth {
   width: 450px;
   margin-left: 139px;
-
   margin-top: 376px;
 }
 
@@ -369,7 +360,6 @@ main {
   margin-right: 96px;
   margin-top: 200px;
 }
-
 
 .images-fourth img {
   position: absolute;
@@ -447,7 +437,6 @@ main {
 	width: 3.5%;
 }
 
-
 .name-woman {
   display: flex;
   align-items: center;
@@ -463,8 +452,6 @@ main {
 .name-woman .stars {
   margin-left: 4px;
 }
-
-
 
 .card-first p,
 .card-second p {
@@ -557,11 +544,6 @@ main {
 
 /* footer */
 
-
-
-
-
-
 .container-footer-first {
   float: left;
   margin-top: 210px;
@@ -625,7 +607,6 @@ main {
   text-align: center;
 }
 
-
 input{
 	width: 413px;
 	height: 70px;
@@ -642,7 +623,6 @@ input::placeholder {
   color: #64646A;
   font-size: 22px;
 }
-
 
 .follow .btn-bgv{
   margin-bottom: 70px;
@@ -663,25 +643,18 @@ input::placeholder {
   color: #64646A;
 }
 
-
 .container-footer-third, 
 .container-footer-fourth {
   float: left;
 }
 
-
 .container-footer-third {
- 
   margin-left: 98px;
 }
 
-
 .container-footer-fourth {
-  
   margin-left: 227px;
 }
-
-
 
 .footer-line {
   width: 1240px;
